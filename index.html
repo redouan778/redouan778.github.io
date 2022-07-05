@@ -5,14 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
-    <title>FlexStart Bootstrap Template - Index</title>
+    <title>YMN Logistics </title>
     <meta content="" name="description">
 
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/img/webiste-icon.png" rel="icon">   
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -26,7 +25,8 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/additionalCSS.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -42,7 +42,7 @@
 
             <a href="index.html" class="logo d-flex align-items-center">
                 <img src="assets/img/YMN_logo.png" alt="">
-                <p class="moto">It's not just <font color="#e22626">bringing </font>stuff around, its about the <font color="green">MOVEMENT! </font></p>
+                <p class="motto">It's not just <font color="#e22626">bringing </font>stuff around, its about the <font color="green">MOVEMENT! </font></p>
                 
             </a>
 
@@ -68,43 +68,36 @@
 
 
     <main id="main">
-        <section id="hero" class="hero d-flex align-items-center fullwidth_row_container mii">
-            <!--<div id="moto">
-                <p> It's not just bringing stuff around, but its about the movement!</p>
-            </div>-->
+        <section class="hero d-flex align-items-center fullwidth_row_container mii">
+       
             <video autoplay muted loop id="myVideo">
                 <source src="assets/img/background.mp4" type="video/mp4">
             </video>
 
-            <div class="container">
+            
+                    <div class="slideshow-containerr mimi">
 
-                <div class="d-flex flex-column justify-content-center">
-                    <div class="slideshow-containerr">
-
-                        <div class="mySlides fadee">
-                            <img src="assets/img/YMN_logo.png" class="img-fluid test" alt="">
+<!--                        <div class="mySlides fadeeItemInSlider">
+                            <img src="assets/img/YMN_logo.png" class="img-fluid YMNLogoInSLider" alt="">
                         </div>
-
-                        <div class="mySlides fadee">
-                            <img src="assets/img/hero-img.png" class="img-fluid testl" alt="">
-                            <p class="textt">Oplossingsgericht te werk!</p>
+-->
+                        <div class="mySlides fadeeItemInSlider">
+                            <img src="assets/img/hero-img.png" class="img-fluid secondImageInSlider" alt="">
+                            <p class="textInSlider">Oplossingsgericht te werk!</p>
                         </div>
-
-                    
-                    <p class="textt mySlides fadee" >Pasie</p>                    
-                
-                    <p class="textt mySlides fadee" >Cargo</p>
                         
-                    <p class="textt mySlides fadee" >Dynamisch</p>
-                    
-                    <p class="textt mySlides fadee">Lange Termijn Banden</p>              
+                      <!--  <p class="textInSlider mySlides fadeeItemInSlider" >Pasie</p>
+
+                        <p class="textInSlider mySlides fadeeItemInSlider" >Cargo</p>
+
+                        <p class="textInSlider mySlides fadeeItemInSlider" >Dynamisch</p>
+
+                        <p class="textInSlider mySlides fadeeItemInSlider">Lange Termijn Banden</p>     -->
 
                     </div>
                     <br>
-                </div>
-
-            </div>
-        </section><!-- End Hero -->
+            
+        </section>
 
 
 
@@ -121,7 +114,7 @@
                 slideIndex++;
                 if (slideIndex > slides.length) { slideIndex = 1 }
              
-                slides[slideIndex - 1].style.display = "block";
+                slides[slideIndex - 1].style.display = "inline-block";
                 setTimeout(showSlides, 3000); // Change image every 2 seconds
             }
         </script>
@@ -138,7 +131,8 @@
                 </header>
 
                 <div class="row gx-0">
-                    <div class="col-lg-6 d-flex flex-column justify-content-center tty" data-aos="fade-up" data-aos-delay="200">
+                    <!-- miss moet deze kl;asse erin "tty" alleen is het neit zeker-->
+                    <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
 
                         <div class="content">
