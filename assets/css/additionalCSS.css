@@ -55,6 +55,13 @@
     left: 30%;
 }
 
+.about-intro{
+   margin-top: 10%;
+}
+
+.textInAboutHeaders{
+    text-align: justify;
+}
 
 #myVideo {
     position: absolute;
