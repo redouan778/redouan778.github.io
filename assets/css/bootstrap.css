@@ -132,15 +132,18 @@ section {
   border-radius: 4px;
   transition: all 0.4s;
 }
+
 .back-to-top i {
   font-size: 24px;
   color: #fff;
   line-height: 0;
 }
+
 .back-to-top:hover {
-  background: #6776f4;
-  color: #fff;
+    background: #43f300;
+    color: #fff;
 }
+
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
@@ -1468,11 +1471,11 @@ section {
     /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-    .contact .info-box {
-        color: #444444;
-        background: #fafbff;
-        padding: 30px;
-    }
+.contact .info-box {
+    color: #444444;
+    background: #e5e5e5;
+    padding: 30px;
+}
 
         .contact .info-box i {
             font-size: 38px;

@@ -1,0 +1,38 @@
+.languageContainer {
+    display: flex;
+    justify-content: end;
+    overflow: visible;
+    height: 3rem;
+    font-size: small;
+    margin-left: 86px;
+    margin-right: -42px;
+}
+
+.languages {
+    display: flex;
+    align-items: center;
+    color: red;
+    cursor: pointer;
+}
+
+.languages::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 32px;
+}
+
+.imgSelector{
+    width:22px;
+    margin-left: -6px;
+}
+
+.british::before {
+    
+}
+
+.deutsch::before {
+}
+
+.nederland::before {
+}
