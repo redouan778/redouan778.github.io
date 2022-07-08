@@ -246,4 +246,59 @@
     .header {
         padding: 0px 0;
     }
+    
+    .contactGevegens {
+        position: absolute;
+        right: -4px;
+        width: 210px;
+        margin-top: 43px;
+    }
+
+    #contactHeader{
+        top: 15px;        
+    }
+
+    #servicesHeader {
+        top: 25px;
+        text-align: center;
+    }
+
+    .horizontalContact {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .horizontalContactLI {
+        float: left;
+        margin-right: 5%;
+    }
+
+    .footer .footer-top .footer-links {
+        margin-bottom: -23px;
+    }
+
+    .footer .footer-top .footer-links ul li:first-child{
+        padding: 9px;
+    }
+
+    .sociallinksDiv {
+        position: relative;
+        top: 290px;
+        margin-left: 31%;
+    }
+
+    .imgALink {
+        position: absolute;
+        left: 133px;
+        margin-top: 16%;
+    }
+
+    .footer .footer-top{
+        padding: 0px;
+    }    
 }
+
+
+97, 50 ,50, 101
+
