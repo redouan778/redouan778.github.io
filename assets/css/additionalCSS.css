@@ -211,12 +211,6 @@
 }
 
 @media (min-width:930px) and (max-width:1300px) {
-    /*.YMNLogoInSLider {
-        width: 45%;
-        margin-left: 15%;
-        margin-top: 36%;
-    }*/
-
     .secondImageInSlider {
         width: 89%;
         position: absolute;
@@ -296,9 +290,37 @@
 
     .footer .footer-top{
         padding: 0px;
-    }    
+    }
+
+
+    .counts .count-box{
+        padding: 1px;
+        height: 109%;
+    }
+
+
+    .HAPPCC {
+        width: 56%;
+        margin-left: 0%;
+        margin-bottom: 3%;
+    }
+
+    .DELC {
+        width: 41%;
+        margin-left: 0%;
+        padding: 0;
+    }
+    
+    .HSC {
+        width: 53%;        
+    }
+
+    .WRKC {
+        width: 47%;
+    }
+    .about .btn-read-more{
+        line-height: 1;
+    }
 }
 
-
-97, 50 ,50, 101
 
