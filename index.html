@@ -32,10 +32,15 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous">
     </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 
@@ -49,51 +54,51 @@
                 <p class="motto">It's not just <font color="#e22626">bringing </font>stuff around, it's about the <font color="green">MOVEMENT! </font></p>
 
             </a>
+          
 
+             
+             
 
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link scrollto ds" href="#hero">Hauptseite</a></li>
-                    <li><a class="nav-link scrollto eng" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto nl" href="#hero">Hoofdpagina</a></li>
+                <nav id="navbar" class="navbar">
+                    <ul>
+   <!--                     <i class="fa fa-home"></i>-->
+                        <li><a class="nav-link scrollto ds" href="#hero">Hauptseite</a></li>
+                        <li><a class="nav-link scrollto eng" href="#hero">Home</a></li>
+                        <li><a class="nav-link scrollto nl" href="#hero">Hoofdpagina</a></li>
+                        
+<!--                        <i class="fa fa-desktop"></i>-->
+                        <li><a class="nav-link scrollto ds" href="#about">Über Uns</a></li>
+                        <li><a class="nav-link scrollto eng" href="#about">About Us</a></li>
+                        <li><a class="nav-link scrollto nl" href="#about">Over Ons</a></li>
+                        
+                        <!--<i class="fa fa-briefcase"></i>-->
+                        <li><a class="nav-link scrollto ds" href="#services">Dienstleistungen</a></li>
+                        <li><a class="nav-link scrollto nl" href="#services">Diensten</a></li>
+                        <li><a class="nav-link scrollto eng" href="#services">Services</a></li>
+                        
+                        <!--<i class="fa fa-address-book"></i>-->
+                        <li><a class="nav-link scrollto ds" href="#contact">Kontakt</a></li>
+                        <li><a class="nav-link scrollto nl" href="#contact">Contact</a></li>
+                        <li><a class="nav-link scrollto eng" href="#contact">Contact</a></li>
 
-                    <li><a class="nav-link scrollto ds" href="#about">Über Uns</a></li>
-                    <li><a class="nav-link scrollto eng" href="#about">About Us</a></li>
-                    <li><a class="nav-link scrollto nl" href="#about">Over Ons</a></li>
+                        <div class="languageContainer">
+                            <div id="eng" class="languages ">
+                                <img src="assets/img/uk.png" alt="Alternate Text" class="imgSelector" />
+                            </div>
 
-                    <li><a class="nav-link scrollto ds" href="#services">Dienstleistungen</a></li>
-                    <li><a class="nav-link scrollto nl" href="#services">Diensten</a></li>
-                    <li><a class="nav-link scrollto eng" href="#services">Services</a></li>
+                            <div id="ds" class="languages ">
+                                <img src="assets/img/germany.png" class="imgSelector" alt="Alternate Text" />
+                            </div>
 
-                    <li><a class="nav-link scrollto ds" href="#contact">Kontakt</a></li>
-                    <li><a class="nav-link scrollto nl" href="#contact">Contact</a></li>
-                    <li><a class="nav-link scrollto eng" href="#contact">Contact</a></li>
-
-                    <div class="languageContainer">
-                        <div id="eng" class="languages ">
-                            <img src="assets/img/uk.png" alt="Alternate Text" class="imgSelector" />
+                            <div id="nl" class="languages ">
+                                <img src="assets/img/netherlands.png" alt="Alternate Text" class="imgSelector" />
+                            </div>
                         </div>
 
-                        <div id="ds" class="languages ">
-                            <img src="assets/img/germany.png" class="imgSelector" alt="Alternate Text" />
-                        </div>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
 
-                        <div id="nl" class="languages ">
-                            <img src="assets/img/netherlands.png" alt="Alternate Text" class="imgSelector" />
-                        </div>
-                    </div>
-
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-            <script>
-                function update() {
-                    var select = document.getElementById('lang');
-                    var value = select.text;
-                    console.log(value);
-                }
-
-            </script>
         </div>
     </header><!-- End Header -->
     <!-- rood kleur: #f9abab-->

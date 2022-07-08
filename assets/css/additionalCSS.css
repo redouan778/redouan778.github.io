@@ -233,6 +233,7 @@
 
 
 @media (max-width:600px) {
+
     .moto {
         font-size: 11px;
     }
@@ -321,6 +322,11 @@
     .about .btn-read-more{
         line-height: 1;
     }
+
+}
+
+.navbar-mobile ul {
+    height: 40%;
 }
 
 
