@@ -141,6 +141,29 @@
     text-align: right;
 }
 
+
+#vacaPIC {
+    width: 30%;
+}
+
+#vacaTRUCKS {
+    width: 51%;
+    margin-left: 15%;
+}
+
+.vacaText {
+    font-size: 35px;
+}
+
+.navbar-mobile ul {
+    height: 55%;
+}
+
+#vacaDRIVER {
+    display: none;
+    width: 200px;
+}
+
 @media (min-width: 1024px) {
     .hero {
         background-attachment: fixed;
@@ -322,11 +345,25 @@
     .about .btn-read-more{
         line-height: 1;
     }
+    .vacaText {
+        font-size: 18px;
+    }
 
-}
+    body #vacaPIC {
+        width: 52%;
+    }
 
-.navbar-mobile ul {
-    height: 40%;
+    #vacaTRUCKS{
+       display:none;
+    }
+
+    #vacaDRIVER {
+        display: inline;
+        width: 51%;
+        bottom: 135px;
+        position: relative;
+        left: 48%;
+    }
 }
 
 
