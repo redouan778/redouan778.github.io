@@ -110,31 +110,19 @@
             </video>
 
             <div class="slideshow-containerr">
-
                 <div class="mySlides fadeeItemInSlider">
                     <img src="assets/img/YMN_logo.png" class="img-fluid YMNLogoInSLider" alt="">
                 </div>
 
-                <p class="textInSlider mySlides fadeeItemInSlider nl">Oplossingsgericht te werk!</p>
-                <p class="textInSlider mySlides fadeeItemInSlider ds">Lösungsorientiertes Arbeiten!</p>
-                <p class="textInSlider mySlides fadeeItemInSlider eng">Solution-oriented work!</p>
+                <p class="textInSlider mySlides fadeeItemInSlider">Oplossingsgericht te werk!</p>
 
-                <p class="textInSlider mySlides fadeeItemInSlider nl">Pasie!</p>
-                <p class="textInSlider mySlides fadeeItemInSlider ds">Leidenschaft!</p>
-                <p class="textInSlider mySlides fadeeItemInSlider eng">Passion!</p>
+                <p class="textInSlider mySlides fadeeItemInSlider">Pasie!</p>
 
-                <p class="textInSlider mySlides fadeeItemInSlider nl">Cargo</p>
-                <p class="textInSlider mySlides fadeeItemInSlider ds">Ladung</p>
-                <p class="textInSlider mySlides fadeeItemInSlider eng">Cargo</p>
+                <p class="textInSlider mySlides fadeeItemInSlider">Cargo</p>
 
-                <p class="textInSlider mySlides fadeeItemInSlider nl">Dynamisch</p>
-                <p class="textInSlider mySlides fadeeItemInSlider ds">Dynamisch</p>
-                <p class="textInSlider mySlides fadeeItemInSlider eng">Dynamic</p>
-
-                <p class="textInSlider mySlides fadeeItemInSlider nl">Lange Termijn Banden</p>
-                <p class="textInSlider mySlides fadeeItemInSlider ds">Hauptseite</p>
-                <p class="textInSlider mySlides fadeeItemInSlider eng">Long Term Connection</p>
-
+                <p class="textInSlider mySlides fadeeItemInSlider">Dynamisch</p>
+ 
+                <p class="textInSlider mySlides fadeeItemInSlider">Lange Termijn Banden</p>
             </div>
             <br>
         </section>
@@ -155,7 +143,7 @@
                 if (slideIndex > slides.length) { slideIndex = 1 }
 
                 slides[slideIndex - 1].style.display = "inline-block";
-                setTimeout(showSlides, 3000); // Change image every 2 seconds
+                setTimeout(showSlides, 4000); // Change image every 2 seconds
             }
         </script>
 
@@ -271,21 +259,27 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="row gy-4">
-                    <script>
-
-                        let date_1 = new Date('5/10/2022');
+                    <script>                        
+                        let date_1 = new Date('5/1/2022');
                         let date_2 = new Date();
 
                         const days = (date_1, date_2) => {
                             let difference = date_1.getTime() - date_2.getTime();
                             let TotalDays = Math.ceil(difference / (1000 * 3600 * 24));
-                            return TotalDays * 2.63644;
+                            return TotalDays * 8;
                         }
 
-                        var leveringen = Math.round(days(date_2, date_1));
-                        var hoursSupport = Math.round(days(date_2, date_1) / 1.8);
-                        var happylients = 14;
-                        var hardWorkers = 8;
+
+                        var newDate = days(date_2, date_1) * 0.1 / 25;
+
+
+                        //var jan312009 = new Date(2009, 0, 31);
+                        //var eightMonthsFromJan312009 = jan312009.setMonth(jan312009.getMonth() + 8);
+
+                        var leveringen = Math.round(days(date_2, date_1) / 2.63644);
+                        var hoursSupport = 80 + Math.round(days(date_2, date_1) * 0.1);
+                        var happylients = 9 + Math.round(newDate);
+                        var hardWorkers = 4;
                     </script>
 
                     <div class="col-lg-3 col-md-6 HAPPCC">
@@ -384,17 +378,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                        <div class="service-box red">
-                            <i class="ri-discuss-line icon"></i>
-                            <h3 class="ds">Arbeitsmaterial</h3>
-                            <h3 class="eng">Work Material</h3>
-                            <h3 class="nl">Werk Materiaal</h3>
-
-                            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-                        </div>
-                    </div>
-
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                         <div class="service-box purple">
                             <i class="ri-discuss-line icon"></i>
@@ -459,7 +442,7 @@
                                     <h3 class="eng">Address</h3>
                                     <h3 class="ds">die Anschrift</h3>
 
-                                    <p>Tiende Penninglaan 48,<br>Gorinchem, 4205 ??</p>
+                                    <p>Tiende Penninglaan 48,<br>Gorinchem, 4205 SC</p>
                                 </div>
                             </div>
                             <div class="col-md-6" style="width: 47%; padding-left: 8px; padding-right: 8px;">
@@ -589,7 +572,7 @@
                             <div class="col-6 col-md-4">
                                 <p>
                                     Tiende Penninglaan 48<br>
-                                    Gorinchem, 4205??<br>
+                                    Gorinchem, 4205 SC<br>
                                     The Netherlands <br><br>
                             </div>
 

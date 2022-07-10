@@ -61,7 +61,6 @@ selectedDeutsch.addEventListener("click", () => {
     showDeutschText();
 });
 
-//SLOVAK-> ALL OTHERS SWITCHED OFF
 selectedNederlands.addEventListener("click", () => {
     selectedNederlands.classList.add("langSelected");
     selectedDeutsch.classList.remove("langSelected");
@@ -78,7 +77,6 @@ selectedEnglish.addEventListener("click", () => {
     localStorage.setItem("languageActive", "english");
 });
 
-//SPANISH-> ALL OTHERS SWITCHED OFF
 selectedDeutsch.addEventListener("click", () => {
     selectedDeutsch.classList.add("langSelected");
     selectedEnglish.classList.remove("langSelected");
@@ -88,7 +86,6 @@ selectedDeutsch.addEventListener("click", () => {
     localStorage.setItem("languageActive", "deutsch");
 });
 
-//SLOVAK-> ALL OTHERS SWITCHED OFF
 selectedNederlands.addEventListener("click", () => {
     selectedNederlands.classList.add("langSelected");
     selectedDeutsch.classList.remove("langSelected");
@@ -117,5 +114,6 @@ switch (localStorage.getItem("languageActive")) {
 
     default:
         selectedEnglish.classList.add("langSelected");
-        showEnglishText();
+        /*showEnglishText();*/
+        showNederlandText();
 }
